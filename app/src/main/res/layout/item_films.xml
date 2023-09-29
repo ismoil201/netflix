@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="135dp"
+        android:layout_height="240dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="14sp"
+        android:elevation="12sp"
+        app:cardElevation="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        
+        
+        <ImageView
+            android:id="@+id/iv_film"
+            android:layout_width="match_parent"
+            android:layout_height="178dp"
+            android:src="@drawable/film1"/>
+
+        <TextView
+            android:id="@+id/tv_film_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spider-Man No.."
+            android:fontFamily="@font/montserrat_semibold"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:layout_marginTop="190dp"
+            android:textColor="@color/white"
+            android:layout_marginStart="4sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Action"
+            android:layout_marginTop="214dp"
+            android:textColor="#9D9A9A"
+            android:textSize="10sp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:layout_marginStart="4dp"/>
+
+
+    </androidx.cardview.widget.CardView>
+        
+
+</androidx.constraintlayout.widget.ConstraintLayout>
