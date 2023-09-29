@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "kr.dev.netflix"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "kr.dev.netflix"
