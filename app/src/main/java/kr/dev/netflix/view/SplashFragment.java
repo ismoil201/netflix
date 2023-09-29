@@ -19,6 +19,8 @@ public class SplashFragment extends Fragment {
     private FragmentSplashBinding binding;
 
     public SplashFragment() {
+
+
         // Required empty public constructor
     }
 
