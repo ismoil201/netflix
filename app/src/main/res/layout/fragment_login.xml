@@ -81,7 +81,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="UserName, Email"
-        android:padding="24dp"
+        android:padding="20dp"
         android:textSize="14sp"
         android:textColorHint="#919192"
         android:layout_marginTop="10sp"
@@ -113,7 +113,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
-        android:padding="24dp"
+        android:padding="20dp"
         android:textSize="14sp"
         android:textColorHint="#919192"
         android:layout_marginTop="10sp"
@@ -141,6 +141,7 @@
 
 
     <Button
+        android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"

@@ -20,19 +20,16 @@ public class ViewPagerHomeAdapter extends FragmentStateAdapter {
 
     public ViewPagerHomeAdapter(@NonNull FragmentActivity fragmentActivity) {
         super(fragmentActivity);
-        this.fragmentList = fragmentList;
 
     }
 
     public ViewPagerHomeAdapter(@NonNull Fragment fragment) {
         super(fragment);
-        this.fragmentList = fragmentList;
 
     }
 
     public ViewPagerHomeAdapter(@NonNull FragmentManager fragmentManager, @NonNull Lifecycle lifecycle) {
         super(fragmentManager, lifecycle);
-        this.fragmentList = fragmentList;
 
     }
 

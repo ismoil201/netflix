@@ -14,13 +14,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 import kr.dev.netflix.R;
-import kr.dev.netflix.adapter.HomeCategoryAdapter;
+import kr.dev.netflix.adapter.AllAdapter;
 import kr.dev.netflix.databinding.FragmentAllBinding;
 import kr.dev.netflix.models.FilmData;
 
 public class AllFragment extends Fragment {
 
-    private HomeCategoryAdapter homeCategoryAdapter;
+    private AllAdapter homeCategoryAdapter;
 
     private List<FilmData> filmDataList;
 
@@ -36,7 +36,7 @@ public class AllFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        binding =  FragmentAllBinding.inflate(LayoutInflater.from(container.getContext()),container,false);
+        binding =  FragmentAllBinding.inflate(inflater,container,false);
         return binding.getRoot();
     }
 
@@ -45,7 +45,8 @@ public class AllFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         loadList();
-        homeCategoryAdapter = new HomeCategoryAdapter(filmDataList);
+        homeCategoryAdapter = new AllAdapter(filmDataList);
+        binding.rvFilms.setAdapter(homeCategoryAdapter);
     }
 
     private void loadList(){
