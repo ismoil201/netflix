@@ -39,7 +39,6 @@
         android:text="Semper in cursus magna et eu varius nunc \nadipiscing. Elementum justo, laoreet id sem \n\t\t\t\t\t\t\t\t\t\t\tsemper parturient. "
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-
     <ImageView
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.95"
