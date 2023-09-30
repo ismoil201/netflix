@@ -8,7 +8,7 @@
     tools:context=".view.Fragment_Onboarding_3">
 
     <ImageView
-        android:id="@+id/iv_character"
+        android:id="@+id/iv_character_3"
         app:layout_constraintTop_toTopOf="parent"
         android:src="@drawable/woman_popcorn"
         android:layout_width="match_parent"
@@ -39,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
-    <androidx.constraintlayout.utils.widget.ImageFilterButton
+    <ImageView
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.95"
         app:layout_constraintBottom_toBottomOf="parent"
