@@ -68,6 +68,21 @@
                       </LayoutPositions>
                     </value>
                   </entry>
+                  <entry key="fragment_Onboarding_12">
+                    <value>
+                      <LayoutPositions />
+                    </value>
+                  </entry>
+                  <entry key="fragment_Onboarding_23">
+                    <value>
+                      <LayoutPositions />
+                    </value>
+                  </entry>
+                  <entry key="fragment_Onboarding_33">
+                    <value>
+                      <LayoutPositions />
+                    </value>
+                  </entry>
                   <entry key="homeFragment">
                     <value>
                       <LayoutPositions>
@@ -154,15 +169,6 @@
                             <option name="x" value="-521" />
                             <option name="y" value="561" />
                           </Point>
-                        </option>
-                        <option name="myPositions">
-                          <map>
-                            <entry key="action_splashFragment_to_signFragment">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                          </map>
                         </option>
                       </LayoutPositions>
                     </value>
