@@ -72,4 +72,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:src="@drawable/my"/>
 
-</androidx.constraintlayout.widget.Cons traintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
