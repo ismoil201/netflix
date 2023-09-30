@@ -4,11 +4,13 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/iv_rek_image"
+        android:padding="10dp"
         android:layout_width="320dp"
         android:layout_height="174dp"
-        android:src="@drawable/rek_image"
+        android:src="@drawable/img_3"
+        app:shapeAppearanceOverlay="@style/CornerCut"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
@@ -19,12 +21,15 @@
         android:layout_height="wrap_content"
         android:text="Black Panther Wakanda\nForever "
         android:textSize="12sp"
-        android:fontFamily="@font/montserrat_semibold"
+        android:fontFamily="@font/montserrat_extrabold"
         android:textColor="@color/white"
-        android:layout_marginEnd="20sp"
+        android:maxLines="2"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        app:layout_constraintVertical_bias="0.8"
+        android:layout_marginStart="40dp"
         app:layout_constraintStart_toStartOf="@id/iv_rek_image"
         app:layout_constraintTop_toTopOf="@id/iv_rek_image"
-        app:layout_constraintEnd_toEndOf="@id/iv_rek_image"
         app:layout_constraintBottom_toBottomOf="@id/iv_rek_image"/>
 
     <TextView
@@ -32,9 +37,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="On March 2, 2022"
-        android:fontFamily="@font/montserrat_medium"
+        android:fontFamily="@font/montserrat_extrabold"
         android:textSize="10sp"
-        android:textColor="#9D9A9A"
+        android:textStyle="bold"
+        android:textColor="#7B7B7B"
         app:layout_constraintTop_toBottomOf="@id/tv_title_rek"
         app:layout_constraintStart_toStartOf="@id/tv_title_rek"
 />

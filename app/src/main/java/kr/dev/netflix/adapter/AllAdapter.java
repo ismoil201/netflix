@@ -1,23 +1,21 @@
 package kr.dev.netflix.adapter;
 
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import kr.dev.netflix.databinding.ItemFilmsBinding;
 import kr.dev.netflix.models.FilmData;
 
-public class HomeCategoryAdapter extends RecyclerView.Adapter<HomeCategoryAdapter.Vh> {
+public class AllAdapter extends RecyclerView.Adapter<AllAdapter.Vh> {
 
     List<FilmData> filmDataList;
 
-    public HomeCategoryAdapter(List<FilmData> filmDataList) {
+    public AllAdapter(List<FilmData> filmDataList) {
         this.filmDataList = filmDataList;
     }
 
