@@ -5,14 +5,12 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:padding="24dp"
-    android:background="#171725"
-    tools:context=".view.SearchFragment">
+    android:background="#171725">
 
     <EditText
         android:id="@+id/et_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/et_bg"
         android:drawableStart="@drawable/search"
         android:paddingStart="14dp"
         android:drawablePadding="12dp"
@@ -54,7 +52,6 @@
             android:id="@+id/iv_todayCinema"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/cinema"
             app:layout_constraintTop_toBottomOf="@id/tv_today"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginTop="16dp"/>
@@ -64,7 +61,6 @@
             android:layout_height="wrap_content"
             app:layout_constraintStart_toEndOf="@id/iv_todayCinema"
             app:layout_constraintTop_toTopOf="@id/iv_todayCinema"
-            android:src="@drawable/label"
             android:layout_marginStart="8dp"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
