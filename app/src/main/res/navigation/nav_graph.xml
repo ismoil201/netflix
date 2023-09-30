@@ -9,15 +9,19 @@
         android:id="@+id/splashFragment"
         android:name="kr.dev.netflix.view.SplashFragment"
         android:label="fragment_splash"
-        tools:layout="@layout/fragment_splash" />
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_fragment_Onboarding_1"
+            app:destination="@id/fragment_Onboarding_1" />
+    </fragment>
     <fragment
         android:id="@+id/signFragment"
         android:name="kr.dev.netflix.view.SignFragment"
         android:label="fragment_sign"
         tools:layout="@layout/fragment_sign" >
         <action
-            android:id="@+id/action_signFragment_to_fragment_Onboarding_23"
-            app:destination="@id/fragment_Onboarding_23" />
+            android:id="@+id/action_signFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
@@ -81,7 +85,16 @@
         android:label="fragment__onboarding_3"
         tools:layout="@layout/fragment__onboarding_3" >
         <action
-            android:id="@+id/action_fragment_Onboarding_33_to_loginFragment"
-            app:destination="@id/loginFragment" />
+            android:id="@+id/action_fragment_Onboarding_33_to_signFragment"
+            app:destination="@id/signFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_Onboarding_1"
+        android:name="kr.dev.netflix.view.Fragment_Onboarding_1"
+        android:label="fragment__onboarding_1"
+        tools:layout="@layout/fragment__onboarding_1" >
+        <action
+            android:id="@+id/action_fragment_Onboarding_1_to_fragment_Onboarding_23"
+            app:destination="@id/fragment_Onboarding_23" />
     </fragment>
 </navigation>
