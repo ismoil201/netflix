@@ -17,12 +17,5 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        getSupportFragmentManager()
-                .beginTransaction()
-                .replace(R.id.container_onboarding_1
-                , new Fragment_Onboarding_1())
-                .commit();
-
-
     }
 }
