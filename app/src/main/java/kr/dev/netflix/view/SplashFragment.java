@@ -40,6 +40,6 @@ public class SplashFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
 
-        Navigation.findNavController(binding.getRoot()).navigate(R.id.signFragment);
+        Navigation.findNavController(binding.getRoot()).navigate(R.id.fragment_Onboarding_1);
     }
 }
