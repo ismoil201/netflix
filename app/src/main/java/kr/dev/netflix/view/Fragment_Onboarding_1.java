@@ -9,12 +9,13 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import kr.dev.netflix.R;
+import kr.dev.netflix.databinding.FragmentOnboarding1Binding;
 
 
 public class Fragment_Onboarding_1 extends Fragment {
 
 
-    private 
+    private FragmentOnboarding1Binding binding;
 
     public Fragment_Onboarding_1() {
         // Required empty public constructor

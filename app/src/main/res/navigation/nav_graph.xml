@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/loginFragment">
+    app:startDestination="@id/splashFragment">
 
     <fragment
         android:id="@+id/splashFragment"
@@ -72,7 +72,7 @@
         tools:layout="@layout/fragment_dakumentaries" />
     <fragment
         android:id="@+id/fragment_Onboarding_23"
-        android:name="kr.dev.netflix.view.Fragment_Onboarding_2"
+        android:name="kr.dev.netflix.view.FragmentOnboarding2"
         android:label="fragment__onboarding_2"
         tools:layout="@layout/fragment__onboarding_2" >
         <action
@@ -81,7 +81,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragment_Onboarding_33"
-        android:name="kr.dev.netflix.view.Fragment_Onboarding_3"
+        android:name="kr.dev.netflix.view.FragmentOnboarding3"
         android:label="fragment__onboarding_3"
         tools:layout="@layout/fragment__onboarding_3" >
         <action
@@ -90,7 +90,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragment_Onboarding_1"
-        android:name="kr.dev.netflix.view.Fragment_Onboarding_1"
+        android:name="kr.dev.netflix.view.FragmentOnboarding1"
         android:label="fragment__onboarding_1"
         tools:layout="@layout/fragment__onboarding_1" >
         <action

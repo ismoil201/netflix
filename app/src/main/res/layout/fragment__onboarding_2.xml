@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#1F1D2B"
-    tools:context=".view.Fragment_Onboarding_2">
+    tools:context=".view.FragmentOnboarding2">
 
     <ImageView
         android:id="@+id/iv_character_2"
@@ -40,6 +40,7 @@
         android:layout_height="wrap_content"/>
 
     <ImageView
+        android:id="@+id/btn_next2"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.95"
         app:layout_constraintBottom_toBottomOf="parent"
