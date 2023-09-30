@@ -15,7 +15,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.1"
-        android:src="@drawable/logo"/>
+        android:src="@drawable/my2"/>
 
     <Button
         android:id="@+id/btn_sign"
@@ -70,6 +70,6 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:src="@drawable/choose_img"/>
+        android:src="@drawable/my"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
