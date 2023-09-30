@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#1F1D2B"
     android:id="@+id/container_onboarding_1"
-    tools:context=".view.Fragment_Onboarding_1">
+    tools:context=".view.FragmentOnboarding1">
 
     <ImageView
         android:id="@+id/iv_character_1"
@@ -39,7 +39,9 @@
         android:text="Semper in cursus magna et eu varius nunc \nadipiscing. Elementum justo, laoreet id sem \n\t\t\t\t\t\t\t\t\t\t\tsemper parturient. "
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+
     <ImageView
+        android:id="@+id/btn_next"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.95"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -51,15 +53,15 @@
         android:layout_height="wrap_content"/>
 
     <ImageView
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.918"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintHorizontal_bias="0.89"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
         android:src="@drawable/icon_back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.918" />
 
     <ImageView
         app:layout_constraintTop_toTopOf="parent"
