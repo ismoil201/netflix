@@ -51,14 +51,21 @@
           android:textSize="20sp"/>
 
       <ImageView
+          android:id="@+id/iv_todayCinema"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:src="@android:drawable/sym_def_app_icon"
+          android:src="@drawable/cinema"
           app:layout_constraintTop_toBottomOf="@id/tv_today"
-          
+          app:layout_constraintStart_toStartOf="parent"
           android:layout_marginTop="16dp"/>
 
-
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         app:layout_constraintStart_toEndOf="@id/iv_todayCinema"
+         app:layout_constraintTop_toTopOf="@id/iv_todayCinema"
+         android:src="@drawable/label"
+         android:layout_marginStart="8dp"/>
    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
