@@ -21,29 +21,45 @@
        app:layout_constraintTop_toTopOf="parent"
        android:textColor="#92929D"/>
 
-
-
-
+   
    <com.google.android.material.tabs.TabLayout
+       android:id="@+id/tl_search"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       tools:ignore="MissingConstraints">
+       android:layout_marginTop="24dp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/et_input"
+       app:tabSelectedTextColor="#2196F3"
+       app:tabTextColor="@color/white"
+       android:background="#1F1D2B"/>
 
-      <com.google.android.material.tabs.TabItem
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:id="@+id/rl"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:layout_constraintTop_toBottomOf="@id/tl_search"
+       android:layout_marginTop="24dp">
+
+      <TextView
+          android:id="@+id/tv_today"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:text="Today"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          android:textColor="@color/white"
+          android:textSize="20sp"/>
+
+      <ImageView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="Monday" />
+          android:src="@android:drawable/sym_def_app_icon"
+          app:layout_constraintTop_toBottomOf="@id/tv_today"
+          
+          android:layout_marginTop="16dp"/>
 
-      <com.google.android.material.tabs.TabItem
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="Tuesday" />
 
-      <com.google.android.material.tabs.TabItem
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="Wednesday" />
-   </com.google.android.material.tabs.TabLayout>
+   </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
