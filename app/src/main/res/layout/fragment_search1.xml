@@ -7,7 +7,7 @@
     android:background="#171725"
     android:paddingHorizontal="20dp"
     android:paddingVertical="12dp"
-    tools:context=".view.SearchFragment1">
+    tools:context=".view.SearchFrg">
 
     <EditText
         android:id="@+id/et_search"
