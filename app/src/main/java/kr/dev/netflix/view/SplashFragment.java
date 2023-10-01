@@ -7,6 +7,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
 
+import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -39,7 +40,12 @@ public class SplashFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+       new Handler().postDelayed(new Runnable() {
+           @Override
+           public void run() {
+               Navigation.findNavController(binding.getRoot()).navigate(R.id.fragment_Onboarding_1);
 
-        Navigation.findNavController(binding.getRoot()).navigate(R.id.fragment_Onboarding_1);
+           }
+       },2000);
     }
 }
