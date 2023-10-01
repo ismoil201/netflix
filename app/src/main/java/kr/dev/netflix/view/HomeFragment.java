@@ -7,8 +7,11 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -56,6 +59,8 @@ public class HomeFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        clicks();
+
         loadList();
         viewPagerHomeAdapter = new ViewPagerHomeAdapter(getChildFragmentManager(),getLifecycle(),fragmentList);
 
@@ -85,7 +90,6 @@ public class HomeFragment extends Fragment {
                         tab.setText("Dakumntaries");
                         return;
                     }
-
                 }
             }
         }).attach();
@@ -119,6 +123,15 @@ public class HomeFragment extends Fragment {
 
 
 
+    }
+
+    private  void clicks(){
+        binding.etSearchHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Navigation.findNavController(binding.getRoot()).navigate(R.id.searchResultFragment);
+            }
+        });
     }
 
 }

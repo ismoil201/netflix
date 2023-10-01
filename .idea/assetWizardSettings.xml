@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:$PROJECT_DIR$/../Library/Android/sdk/icons/material/materialicons/search/baseline_search_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/local_movies/baseline_local_movies_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,8 +28,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="search" />
-                            <entry key="sourceFile" value="$PROJECT_DIR$/../Desktop/Wishlist.svg" />
+                            <entry key="outputName" value="baseline_local_movies_24" />
+                            <entry key="sourceFile" value="C:\hasandroid\Desktop\Wishlist.svg" />
                           </map>
                         </option>
                       </PersistentState>
