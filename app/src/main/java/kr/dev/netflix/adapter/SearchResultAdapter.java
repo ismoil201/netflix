@@ -36,6 +36,7 @@ public class SearchResultAdapter extends RecyclerView.Adapter<SearchResultAdapte
         SearchResult searchResult = searchResultList.get(position);
         holder.binding.ivSpiderman.setImageResource(searchResult.getImgFilm());
         holder.binding.tvCalendarTitle.setText(searchResult.getData());
+        holder.binding.tvTitle.setText(searchResult.getName());
         holder.binding.tvClockTitle.setText(searchResult.getTime());
         holder.binding.tvActionTitle.setText(searchResult.getJanr());
     }
