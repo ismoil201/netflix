@@ -43,7 +43,7 @@ public class SplashFragment extends Fragment {
        new Handler().postDelayed(new Runnable() {
            @Override
            public void run() {
-               Navigation.findNavController(binding.getRoot()).navigate(R.id.fragment_Onboarding_1);
+               Navigation.findNavController(binding.getRoot()).navigate(R.id.loginFragment);
 
            }
        },2000);

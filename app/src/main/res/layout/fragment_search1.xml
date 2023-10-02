@@ -13,7 +13,7 @@
         android:id="@+id/et_search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/search_et"
+        android:text="search"
         android:textColor="#92929D"
         android:drawableStart="@drawable/search1"
         android:paddingStart="8dp"
